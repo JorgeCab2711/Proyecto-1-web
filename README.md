@@ -1,3 +1,5 @@
+Disclaimer : This is not the original 4 chan website. This website was created for a college project.
+
 # Proyecto 1 web
  Recreando una pagina web
  
