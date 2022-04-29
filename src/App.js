@@ -342,6 +342,32 @@ function App() {
               </div>
             </div>
           </div>
+          <div className="misc-container">
+            <div className="misc" id="misc-first">
+              Home
+            </div>
+            <div className="misc">News</div>
+            <div className="misc">Blog</div>
+            <div className="misc">FAQ</div>
+            <div className="misc">Rules</div>
+            <div className="misc">Support</div>
+            <div className="misc">Advice</div>
+            <div className="misc">Press</div>
+            <div className="misc">日本語</div>
+          </div>
+          <div className="extras-container">
+            <div className="extras">About</div>
+            <div>•</div>
+            <div className="extras">Feedback </div>
+            <div>•</div>
+            <div className="extras">Legal </div>
+            <div>•</div>
+            <div className="extras">Contact </div>
+          </div>
+          <p>
+            Copyright © 2003-2022 4chan community support LLC. All rights
+            reserved.
+          </p>
         </div>
       </body>
     </Fragment>
