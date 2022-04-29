@@ -322,6 +322,26 @@ function App() {
               </div>
             </div>
           </div>
+          <div className="info-container">
+            <div className="info-header">Stats</div>
+            <div className="column-container">
+              <div className="column">
+                <header className="stats thread-header ">
+                  Total Posts: 4,109,842,335
+                </header>
+              </div>
+              <div className="column">
+                <header className="stats thread-header ">
+                  Current Users: 222,218
+                </header>
+              </div>
+              <div className="column">
+                <header className="stats thread-header ">
+                  Active Content: 1329 GB
+                </header>
+              </div>
+            </div>
+          </div>
         </div>
       </body>
     </Fragment>

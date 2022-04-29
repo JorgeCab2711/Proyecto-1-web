@@ -1,5 +1,6 @@
 $color-primary: #970d11;
 $color-secondary: #ffccac;
+$color-third: #ffecdc;
 
 
 .nsfw{
@@ -31,6 +32,13 @@ $color-secondary: #ffccac;
     left:25%;
 }
 
+body{
+    border: 0.1px ;
+    height: 100%;
+    width:100%;
+    padding: 0%;
+    margin: 0%;
+}
 .container{
     display: grid;
     align-items: center;
@@ -43,7 +51,7 @@ $color-secondary: #ffccac;
     display: grid;
     border: 0.5px $color-primary solid ;  
     background-color: white;
-    max-width: 600px;
+    max-width: 750px;
 }
 
 .column-container{
@@ -53,13 +61,7 @@ $color-secondary: #ffccac;
     align-items: center;
 }
 
-body{
-    border: 0.1px ;
-    height: 100%;
-    width:100%;
-    padding: 0%;
-    margin: 0%;
-}
+
 
 
 .column{
@@ -67,6 +69,7 @@ body{
     width: 100%;
     padding-right: 20px;
 }
+
 
 header{
     text-decoration: underline 1px;
@@ -145,4 +148,13 @@ a{
     font-size: 10px;
 
 }
+
+.stats{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
 
